@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var animal: Animal?
+    
     // MARK: - Outlets
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -22,16 +24,30 @@ class ViewController: UIViewController {
     
     
     
+    func initAnimal() {
+        guard let animal = animal else {
+            let _ = navigationController?.popViewController(animated: true)
+            return
+        }
+        
+        titleLabel.text = animal.species
+        descriptionLabel.text = animal.description
+        
+        if let img = UIImage(named: animal.image) {
+            imageView.image = img
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        initAnimal()
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+   
+    
 
 
 }

@@ -46,7 +46,15 @@ class AnimalTableViewController: UITableViewController {
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-
+        
+        if segue.identifier == "detailView"{
+            guard let indexPath = tableView.indexPathForSelectedRow else  {
+                return
+            }
+            
+            let dstCtrl = segue.destination as! ViewController
+            dstCtrl.animal = animals[indexPath.row]
+        }
     }
  
 
