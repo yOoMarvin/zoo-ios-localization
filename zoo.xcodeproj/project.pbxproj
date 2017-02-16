@@ -16,6 +16,8 @@
 		02C79B071D589C6E0004AE4A /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C79B061D589C6E0004AE4A /* Animal.swift */; };
 		02C79B091D589C7D0004AE4A /* AnimalResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C79B081D589C7D0004AE4A /* AnimalResource.swift */; };
 		58944A361E54C5950056D0F4 /* animals.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58944A351E54C5950056D0F4 /* animals.plist */; };
+		58A8CC3E1E56246B00504C38 /* esel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58A8CC3C1E56246B00504C38 /* esel.jpg */; };
+		58A8CC3F1E56246B00504C38 /* gans.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58A8CC3D1E56246B00504C38 /* gans.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		02C79B061D589C6E0004AE4A /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		02C79B081D589C7D0004AE4A /* AnimalResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalResource.swift; sourceTree = "<group>"; };
 		58944A351E54C5950056D0F4 /* animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animals.plist; sourceTree = "<group>"; };
+		58A8CC3C1E56246B00504C38 /* esel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esel.jpg; sourceTree = "<group>"; };
+		58A8CC3D1E56246B00504C38 /* gans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gans.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 		02C79B0A1D589CCD0004AE4A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				58A8CC3C1E56246B00504C38 /* esel.jpg */,
+				58A8CC3D1E56246B00504C38 /* gans.jpg */,
 				02C79AFB1D5897DB0004AE4A /* Info.plist */,
 				58944A351E54C5950056D0F4 /* animals.plist */,
 			);
@@ -169,8 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58944A361E54C5950056D0F4 /* animals.plist in Resources */,
+				58A8CC3E1E56246B00504C38 /* esel.jpg in Resources */,
 				02C79AFA1D5897DB0004AE4A /* LaunchScreen.storyboard in Resources */,
 				02C79AF71D5897DB0004AE4A /* Assets.xcassets in Resources */,
+				58A8CC3F1E56246B00504C38 /* gans.jpg in Resources */,
 				02C79AF51D5897DB0004AE4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
