@@ -34,6 +34,8 @@
 		58944A351E54C5950056D0F4 /* animals.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = animals.plist; sourceTree = "<group>"; };
 		58A8CC3C1E56246B00504C38 /* esel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = esel.jpg; sourceTree = "<group>"; };
 		58A8CC3D1E56246B00504C38 /* gans.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gans.jpg; sourceTree = "<group>"; };
+		58A8CC431E56298100504C38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		58A8CC451E56299400504C38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,7 +144,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "Jan Brinkmann";
+				ORGANIZATIONNAME = "Marvin Messenzehl";
 				TargetAttributes = {
 					02C79AEB1D5897DB0004AE4A = {
 						CreatedOnToolsVersion = 8.0;
@@ -153,7 +155,7 @@
 			};
 			buildConfigurationList = 02C79AE71D5897DB0004AE4A /* Build configuration list for PBXProject "zoo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = de;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -205,6 +207,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				02C79AF41D5897DB0004AE4A /* Base */,
+				58A8CC431E56298100504C38 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				02C79AF91D5897DB0004AE4A /* Base */,
+				58A8CC451E56299400504C38 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -224,6 +228,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -274,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
