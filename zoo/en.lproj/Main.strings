@@ -1,15 +1,15 @@
-
 /* Class = "UINavigationItem"; title = "Tiere"; ObjectID = "1pz-lw-Ser"; */
-"1pz-lw-Ser.title" = "Tiere";
+"1pz-lw-Ser.title" = "Animals";
 
 /* Class = "UILabel"; text = "Detailansicht"; ObjectID = "5Bx-fO-LVk"; */
-"5Bx-fO-LVk.text" = "Detailansicht";
+"5Bx-fO-LVk.text" = "Detailview";
 
 /* Class = "UIButton"; normalTitle = "Mehr Infos"; ObjectID = "7xq-R8-jJL"; */
-"7xq-R8-jJL.normalTitle" = "Mehr Infos";
+"7xq-R8-jJL.normalTitle" = "More info";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "vON-qy-IT8"; */
 "vON-qy-IT8.text" = "Label";
 
 /* Class = "UILabel"; text = "Label"; ObjectID = "zcG-5p-0Yr"; */
 "zcG-5p-0Yr.text" = "Label";
+
