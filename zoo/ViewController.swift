@@ -18,6 +18,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     @IBAction func infosTapped(_ sender: Any) {
+        
+        let title = NSLocalizedString("Mehr Infos", comment: "mehr infos button")
+        let msg = NSLocalizedString("Ein Projekt von Marvin Messenzehl", comment: "powered by msg")
+        let buttonText = NSLocalizedString("Akzeptieren", comment: "ok button")
+        
+        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: buttonText, style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
     }
     
     
