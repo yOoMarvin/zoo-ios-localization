@@ -18,7 +18,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     
     @IBAction func infosTapped(_ sender: Any) {
+        presentInfos()
+        printDetails()
         
+    }
+    
+    private func presentInfos(){
         let title = NSLocalizedString("Mehr Infos", comment: "mehr infos button")
         let msg = NSLocalizedString("Ein Projekt von Marvin Messenzehl", comment: "powered by msg")
         let buttonText = NSLocalizedString("Akzeptieren", comment: "ok button")
@@ -29,6 +34,19 @@ class ViewController: UIViewController {
     }
     
     
+    
+    private func printDetails(){
+        
+        let monthlyAmount = 150.2
+        
+        var formatter = NumberFormatter()
+        formatter.usesGroupingSeparator = true
+        formatter.numberStyle = .currency
+        formatter.locale = NSLocale.current
+        
+        let formattedAmount = formatter.string(from: monthlyAmount as NSNumber)
+        print(formattedAmount!)
+    }
     
     
     
