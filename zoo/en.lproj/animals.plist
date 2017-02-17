@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>species</key>
+		<string>Goose</string>
+		<key>link</key>
+		<string>https://en.wikipedia.org/wiki/Goose</string>
+		<key>image</key>
+		<string>gans.jpg</string>
+		<key>description</key>
+		<string>Geese are waterfowl belonging to the tribe Anserini of the family Anatidae. This tribe comprises the genera Anser (the grey geese), Branta (the black geese) and Chen (the white geese).</string>
+	</dict>
+	<dict>
+		<key>species</key>
+		<string>Donkey</string>
+		<key>link</key>
+		<string>https://en.wikipedia.org/wiki/Donkey</string>
+		<key>image</key>
+		<string>esel.jpg</string>
+		<key>description</key>
+		<string>The donkey or ass (Equus africanus asinus)[1][2] is a domesticated member of the horse family, Equidae. The wild ancestor of the donkey is the African wild ass, E. africanus.</string>
+	</dict>
+</array>
+</plist>
